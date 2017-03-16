@@ -1,0 +1,361 @@
+#ah-landing-page {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  overflow-y: auto;
+  text-align: center;
+  color: color-type-secondary;
+}
+#ah-landing-page .ah-request-demo-button {
+  margin-top: 30px;
+media-tablet()
+}
+#ah-landing-page .ah-chat-log {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 450px;
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+media-tablet()
+media-desktop()
+}
+#ah-landing-page .ah-hero {
+  background: url("images/hero-mobile.jpg") no-repeat top left;
+  background-color: rgba(70,50,5,0.6);
+  background-blend-mode: multiply;
+  background-size: cover;
+media-tablet()
+}
+#ah-landing-page #ah-section-help-students .ah-row-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+#ah-landing-page #ah-section-help-students .titled-paragraph {
+  display: inline-block;
+  min-width: 200px;
+  margin: 5px 0;
+  text-align: start;
+media-desktop()
+}
+#ah-landing-page #ah-section-gsu {
+  background: url("images/pounce.jpg") no-repeat top left, radial-gradient(color-indigo, color-indigo-dark);
+  background-blend-mode: multiply;
+  background-size: cover;
+media-tablet()
+}
+#ah-landing-page #ah-section-gsu .subtitle {
+  font-size: 1.25rem !important;
+  margin: -0.3rem 0 5rem !important;
+}
+#ah-landing-page #ah-section-gsu .quote {
+  align-self: flex-end;
+  font-family: "Lato";
+  text-align: start;
+media-desktop()
+}
+#ah-landing-page #ah-section-gsu .quote .quote-text {
+  margin: 30px 0 40px;
+  font-size: 20px;
+media-tablet()
+media-desktop()
+}
+#ah-landing-page #ah-section-gsu .quote .quote-author {
+  font-size: 16px;
+media-tablet()
+media-desktop()
+}
+#ah-landing-page #ah-section-gsu-case-study {
+  align-items: flex-start;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.5);
+}
+#ah-landing-page #ah-section-gsu-case-study h1,
+#ah-landing-page #ah-section-gsu-case-study p,
+#ah-landing-page #ah-section-gsu-case-study .subtitle {
+  text-align: start;
+  width: 100%;
+  max-width: 1000px !important;
+}
+#ah-landing-page #ah-section-gsu-case-study .case-study-stats {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#ah-landing-page #ah-section-key-benefits {
+  background-color: color-indigo;
+}
+#ah-landing-page #ah-section-key-benefits h1 {
+  padding-bottom: 0 !important;
+}
+#ah-landing-page #ah-section-virtual-assistant {
+  background: url("images/speech-bubble-background.jpg") no-repeat center right;
+  background-color: color-indigo-dark;
+  background-blend-mode: overlay;
+  background-size: cover;
+media-tablet()
+}
+#ah-landing-page #ah-section-partners {
+  padding-top: 80px;
+}
+#ah-landing-page #ah-section-partners .ah-section-subtitle {
+  border-color: color-brand-primary !important;
+}
+#ah-landing-page #ah-section-partners .ah-container-centered {
+  max-width: 100%;
+}
+#ah-landing-page #ah-section-contact-us {
+  min-height: 200px;
+}
+#ah-landing-page #ah-section-contact-us h1,
+#ah-landing-page #ah-section-contact-us h2 {
+  width: 100%;
+  margin: 0;
+  text-align: center !important;
+}
+#ah-landing-page #ah-section-contact-us h1 {
+  padding-bottom: 10px;
+}
+#ah-landing-page #ah-section-contact-us i {
+  margin-left: 10px;
+}
+#ah-landing-page #ah-section-contact-us form {
+  width: 100%;
+}
+#ah-landing-page #ah-section-contact-us .ah-container-centered {
+  flex-wrap: wrap;
+  justify-content: center;
+media-desktop()
+}
+#ah-landing-page #ah-section-contact-us .ah-section-subtitle {
+  border-color: color-brand-tertiary !important;
+}
+#ah-landing-page #ah-section-contact-us .ah-subsection {
+  flex: 1;
+  min-width: 260px;
+  margin: 20px 0;
+media-desktop()
+}
+#ah-landing-page #ah-section-contact-us .ah-section-contact-us-cta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#ah-landing-page #ah-section-contact-us .ah-section-contact-us-cta h3 {
+  text-align: center;
+}
+#ah-landing-page #ah-section-contact-us .ah-request-demo-button {
+  margin: 50px 0 0 !important;
+}
+#ah-landing-page #ah-section-recently-answered-questions {
+  padding-bottom: 0 !important;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-section-subtitle {
+  border-color: color-brand-secondary !important;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px 20px 0;
+media-tablet()
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-device-outer,
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-device-inner {
+  border: 1px solid color-brand-primary-light;
+  border-bottom-color: transparent;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-device-outer {
+  display: flex;
+  flex-direction: column;
+  min-height: 200px;
+  border-radius: 25px 25px 0 0;
+  padding: 50px 20px 0;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-device-screen {
+  flex: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: color-background-medium;
+  border-radius: 12px 12px 0 0;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-device-screen::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  border: 1px solid color-brand-primary;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question {
+  text-align: start;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .ah-type-primary {
+  text-align: start;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .chat-item-group {
+  margin: 5px;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .chat-item {
+  display: flex;
+  margin: 20px;
+  color: color-type-primary;
+  font-size: 12px;
+  vertical-align: middle;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .chat-item .icon {
+  background-color: color-brand-tertiary;
+  height: 26px;
+  min-width: 26px;
+  border-radius: 50%;
+  margin-right: 10px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  border-top: 1px solid color-border-medium;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author .avatar {
+  margin-right: 15px;
+  height: 50px;
+  min-width: 50px;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author .avatar .avatar-image {
+  height: 50px;
+  min-width: 50px;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author .author-details {
+  font-size: 10px;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author .author-details .author-name {
+  font-weight: bold;
+}
+#ah-landing-page #ah-section-recently-answered-questions .ah-device .ah-recently-asked-question .answer-author .author-details .author-title {
+  font-size: 9px;
+  letter-spacing: 0.2px;
+}
+#ah-landing-page .ah-logo-oli-lg {
+  margin: 30px;
+}
+#ah-landing-page .case-study-stat {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  padding: 20px;
+}
+#ah-landing-page .case-study-stat .pie-chart {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 230px;
+  height: 230px;
+  border: 1px solid #999;
+  border-radius: 50%;
+  overflow: hidden;
+  background: color-brand-tertiary;
+  background-image: linear-gradient(to right, transparent 50%, color-brand-secondary 0);
+}
+#ah-landing-page .case-study-stat .pie-chart .pie-slice {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  margin-left: 50%;
+  background-color: color-brand-tertiary;
+  transform-origin: left;
+}
+#ah-landing-page .case-study-stat .pie-chart .percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 65%;
+  height: 65%;
+  border: 1px solid #999;
+  border-radius: 50%;
+  z-index: 10;
+  background-color: #fff;
+  color: color-type-primary;
+  font-family: "Kessel 105";
+  font-size: 52px;
+  font-weight: bold;
+}
+#ah-landing-page .case-study-stat .pie-chart .percentage .symbol {
+  font-size: 26px;
+}
+#ah-landing-page .key-feature-details {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 10px;
+media-desktop()
+}
+#ah-landing-page .key-feature-details.inverse {
+  flex-direction: row-reverse;
+}
+#ah-landing-page .key-feature-details .text {
+  max-width: 480px;
+media-desktop()
+}
+#ah-landing-page .key-feature-details .text h3,
+#ah-landing-page .key-feature-details .text p {
+  color: color-type-light !important;
+}
+#ah-landing-page .key-feature-details .text p {
+  line-height: 1.8rem;
+}
+#ah-landing-page .key-feature-details .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  margin: 0 50px;
+media-desktop()
+}
+#ah-landing-page .key-feature-details .icon img {
+  width: 100%;
+  height: 100%;
+}
+#ah-landing-page .sponsors-wrapper {
+  width: 100%;
+}
+#ah-landing-page .sponsors-wrapper .sponsor {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+}
+@media mq-sm-desk {
+  #ah-landing-page .sponsors-wrapper .sponsor {
+    width: calc(50% - 2rem);
+  }
+}
+@media mq-xsm-desk {
+  #ah-landing-page .sponsors-wrapper .sponsor {
+    width: calc(100% - 2rem);
+  }
+}
+#ah-landing-page .sponsors-wrapper .sponsor img {
+  display: block;
+  margin: auto;
+}
+#ah-landing-page .sponsors-wrapper .sponsor-image {
+  max-height: 100px;
+  filter: grayscale(100%);
+  padding: 1rem;
+  background-blend-mode: multiply;
+}
