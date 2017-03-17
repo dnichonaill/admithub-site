@@ -47,10 +47,6 @@ media-desktop()
   background-size: cover;
 media-tablet()
 }
-#ah-landing-page #ah-section-gsu .subtitle {
-  font-size: 1.25rem !important;
-  margin: -0.3rem 0 5rem !important;
-}
 #ah-landing-page #ah-section-gsu .quote {
   align-self: flex-end;
   font-family: "Lato";

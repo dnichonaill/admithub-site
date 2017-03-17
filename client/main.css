@@ -161,6 +161,7 @@ h3 {
 p {
   color: #3c4e56;
   font-family: "Lato", Arial, sans-serif;
+  font-size: 0.9rem;
   letter-spacing: 1px;
   font-weight: 300;
   line-height: 1.5rem;
@@ -914,22 +915,22 @@ form .input-field label {
 #ah-site-layout #ah-site-content .page-title {
   width: 100%;
   max-width: 1200px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
   margin-bottom: 30px;
   border-bottom: 1px solid #88226b;
   color: #88226b;
   font-family: "Lato", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 1.5rem;
   text-align: start;
 }
 @media screen and (min-width: 768px) {
   #ah-site-layout #ah-site-content .page-title {
-    font-size: 36px;
+    font-size: 1.4rem;
   }
 }
 @media screen and (min-width: 1024px) {
   #ah-site-layout #ah-site-content .page-title {
-    font-size: 48px;
+    font-size: 1.4rem;
   }
 }
 #ah-site-layout #ah-site-content .ah-chat-log {
@@ -1036,10 +1037,6 @@ form .input-field label {
   background: url("images/pounce.jpg") no-repeat top left, radial-gradient(#3a5475, #3c4e56);
   background-blend-mode: multiply;
   background-size: cover;
-}
-#ah-landing-page #ah-section-gsu .subtitle {
-  font-size: 1.25rem !important;
-  margin: -0.3rem 0 5rem !important;
 }
 @media screen and (min-width: 768px) {
   #ah-landing-page #ah-section-gsu {
@@ -1505,7 +1502,8 @@ form .input-field label {
 }
 .ah-team-member-profile .ah-team-member-profile-info .ah-team-member-profile-name {
   width: 100%;
-  font-size: 24px;
+  font-size: 1.5rem;
+  margin: -0.5rem 0 0.6rem;
   text-align: center;
   text-transform: uppercase;
 }
@@ -1514,27 +1512,43 @@ form .input-field label {
   font-size: 20px;
   text-align: center;
 }
-#ah-press-page h1 {
+#ah-press-page h2 {
   text-transform: capitalize !important;
 }
 #ah-press-page #ah-section-press-clippings .ah-container-centered {
-  max-width: 1000px !important;
+  max-width: 800px !important;
 }
 #ah-press-page .ah-press-clipping {
   width: 100%;
-  margin: 30px 0;
+  margin: 1.2rem 0;
   text-align: start !important;
 }
-#ah-press-page .ah-press-clipping h1 {
+#ah-press-page .ah-press-clipping h2 {
   text-align: start !important;
+  margin-bottom: 0.825rem;
 }
-#ah-press-page .ah-press-clipping a {
+#ah-press-page .ah-press-clipping .title a {
+  font-size: 1.4rem;
   color: #c3539f;
 }
-#ah-press-page .ah-press-clipping a:hover {
+#ah-press-page .ah-press-clipping .title a:after {
+  content: "";
+  display: inline-block;
+  background: url("images/icons/icon-chevron-right.svg") no-repeat bottom right;
+  padding-left: 0.5rem;
+  width: 0.444rem;
+  height: 1rem;
+}
+#ah-press-page .ah-press-clipping .title a:hover {
   color: #88226b !important;
 }
-#ah-press-page .ah-press-clipping a:active {
+#ah-press-page .ah-press-clipping .title a:hover:after {
+  content: '';
+  background: url("images/icons/icon-chevron-right-hover.svg") no-repeat bottom right;
+  width: 0.444rem;
+  height: 1rem;
+}
+#ah-press-page .ah-press-clipping .title a:active {
   color: #48c2c6 !important;
 }
 #ah-press-page .ah-press-clipping p {
@@ -1544,5 +1558,8 @@ form .input-field label {
   margin-left: 10px;
 }
 #ah-press-page .ah-press-clipping .publisher {
-  margin: 0 0 30px;
+  margin: 0 0 -0.5rem;
+}
+#ah-press-page .ah-press-clipping:first-of-type {
+  margin-top: 0;
 }
